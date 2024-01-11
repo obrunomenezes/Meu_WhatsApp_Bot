@@ -1,4 +1,19 @@
 
+Recursos Principais:
+Lista de Contatos:
+Você pode definir uma lista de contatos para os quais as mensagens serão enviadas. Atualmente, há um exemplo com um único número de telefone na lista.
+
+Agendamento de Mensagens:
+Usando a data e hora atuais, o script programa o envio da mensagem para o próximo minuto.
+
+Envio de Mensagens:
+A mensagem especificada no código é enviada automaticamente para o contato designado no horário agendado.
+
+Espera e Simulação de Ação:
+Após o envio da mensagem, o programa aguarda 15 segundos antes de simular a tecla "Enter" e, em seguida, usa um atalho de teclado para fechar a aba do navegador.
+
+Notas:
+É importante ajustar a lista de contatos conforme necessário. O tempo de espera após o envio da mensagem (time.sleep(15)) pode ser ajustado de acordo com os requisitos. O programa é projetado para execução contínua, desde que haja contatos na lista.
 <h1>🗽</h1>
 <h1> 
  Automatic messages to Whatsapp</h1>
